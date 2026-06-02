@@ -84,7 +84,7 @@ export default function AboutSection() {
           {/* Intro Block */}
           <div className="animate-text">
             <p className="text-[17px] font-medium text-text-primary leading-[1.7]">
-              I am a second-year EEE student at{' '}
+              I am a third-year EEE student at{' '}
               <span className="relative inline">
                 NIT Andhra Pradesh
               </span>
