@@ -34,7 +34,7 @@ const projects = [
     badgeColor: 'amber' as const,
     title: 'CMOS Delay Predictor',
     description:
-      'Developed a physics-informed deep learning framework for 45nm CMOS gate delay prediction by integrating semiconductor physics with PyTorch-based neural networks.',
+      'Developing a physics-informed deep learning framework for 45nm CMOS gate delay prediction by integrating semiconductor physics with PyTorch-based neural networks.',
     tags: [
       { label: 'Python', color: 'purple' as const },
       { label: 'Deep Learning', color: 'purple' as const },
