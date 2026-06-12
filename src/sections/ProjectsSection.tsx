@@ -24,7 +24,7 @@ const projects = [
       { label: 'Computer Vision', color: 'purple' as const },
       { label: 'CNN', color: 'cyan' as const },
     ],
-    githubUrl: 'https://github.com/rishii-25',
+    githubUrl: 'https://github.com/rishii-25/Image_Inpainting',
     category: ['ML & AI', 'Research'],
   },
   {
@@ -40,7 +40,7 @@ const projects = [
       { label: 'Python', color: 'purple' as const },
       { label: 'Data Analytics', color: 'cyan' as const },
     ],
-    githubUrl: 'https://github.com/rishii-25',
+    githubUrl: 'https://github.com/rishii-25/EV-Battery-Project',
     category: ['ML & AI'],
   },
   {
@@ -56,7 +56,7 @@ const projects = [
       { label: 'IoT', color: 'green' as const },
       { label: 'Energy Systems', color: 'green' as const },
     ],
-    githubUrl: 'https://github.com/rishii-25',
+    githubUrl: 'https://github.com/rishii-25/Smart_solar_streetLight',
     category: ['Hardware', 'IoT'],
   },
   {
