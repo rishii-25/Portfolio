@@ -7,7 +7,7 @@ import SectionHeading from '@/components/SectionHeading'
 gsap.registerPlugin(ScrollTrigger)
 
 const stats = [
-  { value: '8.4', label: 'CGPA', color: 'text-cyan' },
+  { value: '8.35', label: 'CGPA', color: 'text-cyan' },
   { value: '5+', label: 'Projects', color: 'text-cyan' },
   { value: '2', label: 'Research', color: 'text-purple-accent' },
 ]
