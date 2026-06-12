@@ -7,7 +7,7 @@ import ProjectCard from '@/components/ProjectCard'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const filters = ['All', 'ML & AI', 'Hardware', 'IoT', 'Research']
+const filters = ['All', 'ML & AI', 'VLSI', 'Research' , 'IoT','Hardware']
 
 const projects = [
   {
@@ -29,6 +29,23 @@ const projects = [
   },
   {
     id: 2,
+    image: '/assets/project-inpainting.jpg',
+    badge: 'Ongoing Research' as const,
+    badgeColor: 'amber' as const,
+    title: 'CMOS Delay Predictor',
+    description:
+      'Developed a physics-informed deep learning framework for 45nm CMOS gate delay prediction by integrating semiconductor physics with PyTorch-based neural networks.',
+    tags: [
+      { label: 'Python', color: 'purple' as const },
+      { label: 'Deep Learning', color: 'purple' as const },
+      { label: 'EDA', color: 'purple' as const },
+      { label: 'Ngspice', color: 'cyan' as const },
+    ],
+    githubUrl: 'https://github.com/rishii-25/CMOS-Delay-Predictor',
+    category: ['ML & AI', 'Research','VLSI'],
+  },
+  {
+    id: 3,
     image: '/assets/project-battery.jpg',
     badge: 'Completed' as const,
     badgeColor: 'green' as const,
@@ -44,7 +61,7 @@ const projects = [
     category: ['ML & AI'],
   },
   {
-    id: 3,
+    id: 4,
     image: '/assets/project-solar.jpg',
     badge: 'Completed' as const,
     badgeColor: 'green' as const,
@@ -60,7 +77,7 @@ const projects = [
     category: ['Hardware', 'IoT'],
   },
   {
-    id: 4,
+    id: 5,
     image: '/assets/project-mattress.jpg',
     badge: 'Completed' as const,
     badgeColor: 'green' as const,
