@@ -11,7 +11,7 @@ const entries = [
     side: 'right' as const,
     type: 'Research' as const,
     typeColor: 'text-purple-accent',
-    date: 'Aug 2024 – Present',
+    date: 'May 2026 – Present',
     title: 'Research Intern — IIT Bhilai',
     description:
       'Developing improved deep learning-based models for realistic image reconstruction and inpainting. Exploring convolutional and attention-based architectures to enhance quality on corrupted or masked image regions.',
@@ -29,20 +29,21 @@ const entries = [
     side: 'right' as const,
     type: 'Education' as const,
     typeColor: 'text-blue-accent',
-    date: '2024 – Present',
-    title: 'B.Tech in Electrical & Electronics Engineering',
-    description:
-      'National Institute of Technology Andhra Pradesh. CGPA: 8.4/10. Focus on circuits, semiconductor systems, VLSI design, and machine learning applications.',
-  },
-  {
-    side: 'left' as const,
-    type: 'Education' as const,
-    typeColor: 'text-blue-accent',
     date: '2025 – Present',
     title: 'Minor in Artificial Intelligence & Robotics',
     description:
       'NIT Andhra Pradesh. Bridging software intelligence with hardware engineering through coursework in deep learning, computer vision, and autonomous systems.',
   },
+  {
+    side: 'left' as const,
+    type: 'Education' as const,
+    typeColor: 'text-blue-accent',
+    date: '2024 – Present',
+    title: 'B.Tech in Electrical & Electronics Engineering',
+    description:
+      'National Institute of Technology Andhra Pradesh. CGPA: 8.35/10. Focus on circuits, semiconductor systems, VLSI design, and machine learning applications.',
+  },
+
 ]
 
 export default function ExperienceSection() {
