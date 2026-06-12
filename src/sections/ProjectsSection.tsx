@@ -29,7 +29,7 @@ const projects = [
   },
   {
     id: 2,
-    image: '/assets/project-inpainting.jpg',
+    image: '/assets/Cmos_delay_predictor.jpeg',
     badge: 'Ongoing Research' as const,
     badgeColor: 'amber' as const,
     title: 'CMOS Delay Predictor',
