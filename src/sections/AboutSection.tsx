@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger)
 const stats = [
   { value: '8.35', label: 'CGPA', color: 'text-cyan' },
   { value: '5+', label: 'Projects', color: 'text-cyan' },
-  { value: '2', label: 'Research', color: 'text-purple-accent' },
+  { value: '3', label: 'Research', color: 'text-purple-accent' },
 ]
 
 export default function AboutSection() {
