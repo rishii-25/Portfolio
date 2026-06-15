@@ -29,6 +29,23 @@ const projects = [
   },
   {
     id: 2,
+    image: '/assets/ml_sta.jpeg',
+    badge: 'Ongoing Research' as const,
+    badgeColor: 'amber' as const,
+    title: 'ML STA ENGINE',
+    description:
+      'Developed a Physics-Informed Machine Learning framework for Static Timing Analysis (STA) that predicts gate delays, identifies critical paths, and estimates circuit delay with high accuracy, achieving 0.82% error compared to SPICE simulations.',
+    tags: [
+      { label: 'Python', color: 'purple' as const },
+      { label: 'Deep Learning', color: 'purple' as const },
+      { label: 'EDA', color: 'purple' as const },
+      { label: 'Ngspice', color: 'cyan' as const },
+    ],
+    githubUrl: 'https://github.com/rishii-25/ML-STA-Engine',
+    category: ['ML & AI', 'Research','VLSI'],
+  },
+  {
+    id: 3,
     image: '/assets/Cmos_delay_predictor.jpeg',
     badge: 'Ongoing Research' as const,
     badgeColor: 'amber' as const,
@@ -45,7 +62,7 @@ const projects = [
     category: ['ML & AI', 'Research','VLSI'],
   },
   {
-    id: 3,
+    id: 4,
     image: '/assets/project-battery.jpg',
     badge: 'Completed' as const,
     badgeColor: 'green' as const,
@@ -61,7 +78,7 @@ const projects = [
     category: ['ML & AI'],
   },
   {
-    id: 4,
+    id: 5,
     image: '/assets/project-solar.jpg',
     badge: 'Completed' as const,
     badgeColor: 'green' as const,
@@ -77,7 +94,7 @@ const projects = [
     category: ['Hardware', 'IoT'],
   },
   {
-    id: 5,
+    id: 6,
     image: '/assets/project-mattress.jpg',
     badge: 'Completed' as const,
     badgeColor: 'green' as const,
