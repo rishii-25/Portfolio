@@ -34,7 +34,7 @@ const projects = [
     badgeColor: 'amber' as const,
     title: 'ML STA ENGINE',
     description:
-      'Developed a Physics-Informed Machine Learning framework for Static Timing Analysis (STA) that predicts gate delays, identifies critical paths, and estimates circuit delay with high accuracy, achieving 0.82% error compared to SPICE simulations.',
+      'Developing a Physics-Informed Machine Learning framework for Static Timing Analysis (STA) that predicts gate delays, identifies critical paths, and estimates circuit delay with high accuracy, achieving 0.82% error compared to SPICE simulations.',
     tags: [
       { label: 'Python', color: 'purple' as const },
       { label: 'Deep Learning', color: 'purple' as const },
