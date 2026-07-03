@@ -146,8 +146,8 @@ Worked on **Deep Generative Image Inpainting** focusing on Computer Vision and A
 
 * Portfolio: https://rishik25t4-portfolio.vercel.app/
 * GitHub: https://github.com/rishik25t4
-* LinkedIn: *(Add your LinkedIn profile here)*
-* Email: *(Add your email here)*
+* LinkedIn: https://www.linkedin.com/in/rishii25t4/
+* Email: rishik25t4@gmail.com
 
 ---
 
