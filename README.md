@@ -1,73 +1,160 @@
-# React + TypeScript + Vite
+# 🚀 Rishik T — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This portfolio showcases my journey as an **Electrical & Electronics Engineering student**, **Machine Learning enthusiast**, and **AI/VLSI researcher**, highlighting my projects, technical skills, certifications, internships, and achievements.
 
-Currently, two official plugins are available:
+## 🌐 Live Portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**🔗 https://rishik25t4-portfolio.vercel.app/**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 👨‍💻 About Me
 
-## Expanding the ESLint configuration
+Hi! I'm **Rishik T**, a B.Tech student in **Electrical & Electronics Engineering** at **NIT Andhra Pradesh** with a strong passion for:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* 🤖 Artificial Intelligence & Machine Learning
+* 🧠 Deep Learning & Computer Vision
+* 💻 Full-Stack Web Development
+* ⚡ VLSI Design & Electronic Design Automation (EDA)
+* 🔬 Research-driven AI Applications
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+I enjoy building intelligent systems that solve real-world problems while continuously learning emerging technologies.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## ✨ Portfolio Features
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+* Responsive modern UI
+* Interactive project showcase
+* Technical skills section
+* Internship & experience timeline
+* Certifications
+* Resume download
+* Contact section
+* Social media integration
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React.js
+* JavaScript
+* HTML5
+* CSS3
+* Tailwind CSS
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Machine Learning
+
+* Python
+* Scikit-learn
+* TensorFlow
+* OpenCV
+* NumPy
+* Pandas
+* Matplotlib
+
+### Databases & Cloud
+
+* MongoDB
+* Firebase
+
+### Tools
+
+* Git
+* GitHub
+* VS Code
+* Streamlit
+* Vercel
+
+---
+
+## 🚀 Featured Projects
+
+### 🩺 Deep Generative Image Inpainting
+
+Developed an AI-powered image restoration framework capable of reconstructing missing or damaged image regions using deep generative models.
+
+**Tech:** Python • Deep Learning • Computer Vision • TensorFlow
+
+---
+
+### ⚡ Physics-Informed ML for 45nm CMOS Gate Delay Prediction
+
+Designed a machine learning framework integrating semiconductor physics with deep learning to accurately predict CMOS gate delays for Electronic Design Automation (EDA).
+
+**Tech:** Python • Machine Learning • Deep Learning • VLSI
+
+---
+
+### ☀️ Smart Solar Street Light
+
+An IoT-enabled smart street lighting system featuring adaptive brightness control, traffic sensing, dust detection, energy monitoring, and a live web dashboard.
+
+**Tech:** ESP32 • Blynk • IoT • HTML • CSS • JavaScript
+
+---
+
+### 🔋 EV Battery Health Prediction
+
+Machine learning model for estimating electric vehicle battery health and predicting degradation trends using regression algorithms.
+
+**Tech:** Python • Scikit-learn • Regression
+
+---
+
+### 🤖 Neural-X AI Platform
+
+AI-powered web application developed during hackathons featuring intelligent solutions and modern web technologies.
+
+---
+
+## 🏆 Experience
+
+### Research Intern — IIT Bhilai
+
+Worked on **Deep Generative Image Inpainting** focusing on Computer Vision and AI research.
+
+---
+
+## 📜 Certifications
+
+* NVIDIA AI Certifications
+* Machine Learning Certifications
+* VLSI & EDA Learning Programs
+* Tableau Virtual Experience
+* AI & Data Analytics Programs
+
+---
+
+## 🏅 Achievements
+
+* 🥉 Samsung AI Treasure Hunt — Rank 3
+* 🏸 All India Inter-NIT Badminton Participant
+* Multiple National-Level Hackathon Participant
+* Research & AI Project Developer
+
+---
+
+## 📫 Connect With Me
+
+* Portfolio: https://rishik25t4-portfolio.vercel.app/
+* GitHub: https://github.com/rishik25t4
+* LinkedIn: *(Add your LinkedIn profile here)*
+* Email: *(Add your email here)*
+
+---
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+---
+
+⭐ If you like this portfolio, don't forget to give the repository a **star**!
