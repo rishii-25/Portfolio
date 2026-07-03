@@ -15,7 +15,7 @@ const projects = [
     image: '/assets/project-inpainting.jpg',
     badge: 'Ongoing Research' as const,
     badgeColor: 'amber' as const,
-    title: 'Deep Learning Image Inpainting',
+    title: 'Advanced Deep Generative Image Inpainting',
     description:
       'Reconstructing missing and corrupted image regions using advanced CNN and attention-based architectures. Developed in collaboration with IIT Bhilai.',
     tags: [
@@ -66,7 +66,7 @@ const projects = [
     image: '/assets/project-battery.jpg',
     badge: 'Completed' as const,
     badgeColor: 'green' as const,
-    title: 'EV Battery Health Prediction System',
+    title: 'AI-Based EV Battery Health Prediction System',
     description:
       'Integrated ML-based system predicting State of Health (SoH) using anomaly detection, State of Charge estimation, and Remaining Useful Life forecasting for electric vehicle batteries.',
     tags: [
