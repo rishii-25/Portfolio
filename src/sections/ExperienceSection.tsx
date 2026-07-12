@@ -21,7 +21,7 @@ const entries = [
     type: 'Leadership' as const,
     typeColor: 'text-green-accent',
     date: 'Apr 2025 – Present',
-    title: 'Volunteer Assistant — E-Yantra Club, NIT AP',
+    title: 'Member — E-Yantra Club, NIT AP',
     description:
       'Coordinated technical events and supported hands-on training sessions. Developed leadership, teamwork, and problem-solving skills through collaborative club activities.',
   },
