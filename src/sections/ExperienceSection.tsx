@@ -7,11 +7,20 @@ import SectionHeading from '@/components/SectionHeading'
 gsap.registerPlugin(ScrollTrigger)
 
 const entries = [
+    {
+    side: 'left' as const,
+    type: 'Research' as const,
+    typeColor: 'text-purple-accent',
+    date: 'Aug 2026 – Present',
+    title: 'Summer Intern — IEEE IIT KGP',
+    description:
+      'Deep Learning based Virtual Staining of Pathological Images',
+  },
   {
     side: 'right' as const,
     type: 'Research' as const,
     typeColor: 'text-purple-accent',
-    date: 'May 2026 – Present',
+    date: 'May 2026 – Aug 2026',
     title: 'Research Intern — IIT Bhilai',
     description:
       'Developing improved deep learning-based models for realistic image reconstruction and inpainting. Exploring convolutional and attention-based architectures to enhance quality on corrupted or masked image regions.',
