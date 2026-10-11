@@ -58,7 +58,7 @@ export default function HeroSection() {
             View My Work
           </button>
           <a
-            href="/assets/resume_research.pdf"
+            href="/assets/resume_oct.pdf"
             download
             className="px-7 py-3 bg-transparent border border-border-custom text-text-primary font-sans font-semibold text-sm rounded-button hover:border-cyan hover:text-cyan transition-all duration-200"
           >
